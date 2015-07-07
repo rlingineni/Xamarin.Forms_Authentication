@@ -1,0 +1,7 @@
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/bin/Debug/Login.UITests.dll.mdb
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/bin/Debug/Login.UITests.dll
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/obj/Debug/Login.UITests.dll
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/obj/Debug/Login.UITests.dll.mdb
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/bin/Debug/nunit.framework.dll
+/Users/Raviteja/Documents/Projects/Xamarin/Login/UITests/bin/Debug/Xamarin.UITest.dll

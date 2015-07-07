@@ -1,0 +1,36 @@
+﻿<Properties StartupItem="iOS/Login.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Ravi's Iphone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/WebRenderer.cs">
+    <Files>
+      <File FileName="Login/App.cs" Line="22" Column="21" />
+      <File FileName="iOS/WebRenderer.cs" Line="39" Column="6" />
+      <File FileName="Login/obj/Debug/Welcome.xaml.g.cs" Line="20" Column="1" />
+      <File FileName="Login/Welcome.xaml" Line="6" Column="37" />
+      <File FileName="Login/Welcome.xaml.cs" Line="17" Column="4" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Login/SignIn.xaml" Line="9" Column="154" />
+      <File FileName="Login/SignIn.xaml.cs" Line="20" Column="4" />
+      <File FileName="Login/Properties/BaseContentPage.cs" Line="13" Column="25" />
+      <File FileName="Droid/WebRenderer.cs" Line="20" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Login" expanded="True">
+            <Node name="Login" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="SignIn.xaml" expanded="True" />
+              <Node name="Welcome.xaml" expanded="True" />
+            </Node>
+            <Node name="Login.Droid" expanded="True" selected="True" />
+            <Node name="Login.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

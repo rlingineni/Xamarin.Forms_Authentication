@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="Silver" xmlns="http://xamarin.com/schemas/2014/forms" Padding = "0,20,0,0" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Login.SignIn">
+	<ContentPage.Content>
+	<StackLayout Padding = "15,0,15,10">
+	<Label Text="Sign-In Page" FontAttributes="Bold" FontSize="48" HorizontalOptions="Center"/>
+	<Entry Placeholder="Username" HorizontalOptions="FillAndExpand"/>
+	<Entry Placeholder="Password" IsPassword="true" HorizontalOptions="FillAndExpand"/>
+	<Label x:Name="key"/>
+	<Button x:Name="browser" Clicked="click" Text="Sign in With Facebook"  TextColor = "White" BackgroundColor="#3b5998" HorizontalOptions="FillAndExpand"/>
+	<Label Text="This sign in page can authorize users using facebook. You will need to implement local storage to save users token"/>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

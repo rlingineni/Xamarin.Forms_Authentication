@@ -1,0 +1,12 @@
+CreateZStream
+CloseZStream
+Flush
+ReadZStream
+WriteZStream
+monotouch_start_wwan
+xamarin_release_managed_ref
+xamarin_create_managed_ref
+xamarin_get_block_descriptor
+monotouch_GetFolderPath
+monotouch_log
+monotouch_timezone_get_data

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>/Users/Raviteja/.local/share/Xamarin/Android.Support.v4/21.0.3/embedded</AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>/Users/Raviteja/.local/share/Xamarin/Android.Support.v4/21.0.3/embedded/classes.jar;/Users/Raviteja/.local/share/Xamarin/Android.Support.v4/21.0.3/embedded/libs/internal_impl-21.0.3.jar</AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences></AdditionalNativeLibraryReferences>
+</Paths>
