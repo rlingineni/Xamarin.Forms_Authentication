@@ -82,15 +82,6 @@
     <Reference Include="Calabash">
       <HintPath>..\packages\Xamarin.TestCloud.Agent.0.13.0\lib\Xamarin.iOS10\Calabash.dll</HintPath>
     </Reference>
-    <Reference Include="OAuth2Class">
-      <HintPath>..\packages\OAuth2.NET.1.0.1\lib\OAuth2Class.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook">
-      <HintPath>..\packages\FacebookEasyAccess.1.0.11\lib\Facebook.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookEasyAccess">
-      <HintPath>..\packages\FacebookEasyAccess.1.0.11\lib\FacebookEasyAccess.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Configuration" />
     <Reference Include="Xamarin.Auth.iOS">

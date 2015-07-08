@@ -17,30 +17,29 @@ namespace Login.Droid
 	{
 		protected override void OnElementChanged(ElementChangedEventArgs<Page> e)
 		{
-			base.OnElementChanged(e);
+			base.OnElementChanged (e);
 		
 			// this is a ViewGroup - so should be able to load an AXML file and FindView<>
 			var activity = this.Context as Activity;
 
 			var auth = new OAuth2Authenticator (
-				clientId: "932769670123274", // your OAuth2 client id
+				clientId: "", // your OAuth2 client id (For FB Also called App-ID)
 				scope: "", // the scopes for the particular API you're accessing, delimited by "+" symbols
-				authorizeUrl: new Uri ("https://m.facebook.com/dialog/oauth/"), // the auth URL for the service
-				redirectUrl: new Uri ("https://tripauth.azure-mobile.net/signin-facebook")); // the redirect URL for the service
+				authorizeUrl: new Uri ("https://m.facebook.com/dialog/oauth/"), // the auth URL for the service (i.e FB, Twitter)
+				redirectUrl: new Uri ("")); // the redirect URL for the service
 
 			auth.Completed += (sender, eventArgs) => {
-				// We presented the UI, so it's up to us to dimiss it on iOS.
-				//DismissModalViewController(true);
 				if (eventArgs.IsAuthenticated) {
-					// Use eventArgs.Account to do wonderful things
+					//Saves Token, and Calls LoginSuccess() to change Screen
 					App.getToken (eventArgs.Account.Properties ["access_token"]);
-					Login.LoginPage.LoginSuccess();
+					Login.LoginPage.LoginSuccess ();
 				} else {
-					Login.LoginPage.LoginCancel();
+					Login.LoginPage.LoginCancel ();
 				}
 			};
-			activity.StartActivity (auth.GetUI(activity));
+			activity.StartActivity (auth.GetUI (activity));
 		}
+		//Class implemented to save token in a local file in the App's Directory
 		public class SaveAndLoad : Login.App.ISaveAndLoad {
 			public void SaveText (string filename, string text) {
 				var documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal);
@@ -55,7 +54,8 @@ namespace Login.Droid
 				}
 				catch(Exception e)
 				{
-					return null;
+					// This allows application to redirect to "Sign-In" when there is no value stored for the Token
+					return null;  
 
 				}
 			}

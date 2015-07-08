@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using FederatedLogin;
 using Login;
-using Newtonsoft.Json;
 using Xamarin.Forms;
 using System.Threading.Tasks;
-using System.Net.Http;
-using AsyncOAuth;
+
 
 
 namespace Login
@@ -16,16 +13,22 @@ namespace Login
 		public SignIn ()
 		{
 			InitializeComponent ();
-			key.Text = DependencyService.Get<Login.App.ISaveAndLoad> ().LoadText ("token");
+
 		}
 
-		void click(Object sender, EventArgs e)
+		void fb_click(Object sender, EventArgs e)
 		{
+			//Launch Facebook Login Page upon Click
 			Navigation.PushModalAsync(new LoginPage());
 
 		}
 
+		void popup(Object sender, EventArgs e)
+		{
+			//Do Whatever to create account here
+			DisplayAlert("Xamarin.Forms Authentication Sample","Created by Raviteja Lingineni","Enjoy");
 
+		}
 
 	
 	}

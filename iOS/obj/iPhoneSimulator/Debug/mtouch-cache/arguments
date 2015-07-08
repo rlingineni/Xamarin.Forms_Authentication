@@ -35,12 +35,6 @@
 	-r \
 	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll \
 	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/OAuth2.NET.1.0.1/lib/OAuth2Class.dll \
-	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/FacebookEasyAccess.1.0.11/lib/Facebook.dll \
-	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/FacebookEasyAccess.1.0.11/lib/FacebookEasyAccess.dll \
-	-r \
 	/Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/gac/System.Web/4.0.0.0__b03f5f7f11d50a3a/System.Web.dll \
 	-r \
 	/Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll \
@@ -146,12 +140,6 @@
 	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll \
-	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/OAuth2.NET.1.0.1/lib/OAuth2Class.dll \
-	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/FacebookEasyAccess.1.0.11/lib/Facebook.dll \
-	-r \
-	/Users/Raviteja/Documents/Projects/Xamarin/Login/packages/FacebookEasyAccess.1.0.11/lib/FacebookEasyAccess.dll \
 	-r \
 	/Users/Raviteja/Documents/Projects/Xamarin/Login/Components/xamarin.auth-1.2.3.1/lib/ios-unified/Xamarin.Auth.iOS.dll \
 	-r \

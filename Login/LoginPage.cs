@@ -7,7 +7,8 @@ namespace Login
 	{
 		public LoginPage ()
 		{
-			
+
+			//Page is Rendered in CustomRenderer for IOS and Android
 
 		}
 		public static event EventHandler LoginSucceeded;
@@ -15,14 +16,14 @@ namespace Login
 		public static Object sender;
 		public static void LoginSuccess()
 		{
-			
+			//Invoked and then sent to the App.cs
 			LoginSucceeded(sender, EventArgs.Empty);
 
 		}
 
 		public static void LoginCancel()
 		{
-
+			//Invoked and then sent to the App.cs
 			LoginCancelled(sender, EventArgs.Empty);
 
 		}

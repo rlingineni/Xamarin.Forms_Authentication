@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Padding = "0,20,0,0" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Login.Welcome">
 	<ContentPage.Content>
-	<StackLayout>
-	<Label Text="Yay! Welcome to the App" FontSize="Medium" HorizontalOptions="Center"/>
-	<Button x:Name="logout" Clicked="click" Text="Sign in With Facebook"  TextColor = "White" BackgroundColor="#3b5998" HorizontalOptions="FillAndExpand"/>
+	<StackLayout Spacing="5">
+	<Label Text="You are logged in to your App" FontSize="Medium" HorizontalOptions="Center"/>
+	<Image Source="http://blog.xamarin.com/wp-content/uploads/2014/04/monkey.png" />
+	<Button x:Name="logout" Clicked="logout_click" Text="Logout of App"  TextColor = "White" BackgroundColor="#F75677" HorizontalOptions="FillAndExpand"/>
 	<Label x:Name="store" HorizontalOptions="Center" />
 	</StackLayout>
 	</ContentPage.Content>

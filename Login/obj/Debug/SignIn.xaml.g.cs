@@ -16,14 +16,20 @@ namespace Login {
     
     public partial class SignIn : ContentPage {
         
+        private Button login;
+        
+        private Button fblogin;
+        
         private Label key;
         
-        private Button browser;
+        private Button create;
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(SignIn));
+            login = this.FindByName <Button>("login");
+            fblogin = this.FindByName <Button>("fblogin");
             key = this.FindByName <Label>("key");
-            browser = this.FindByName <Button>("browser");
+            create = this.FindByName <Button>("create");
         }
     }
 }

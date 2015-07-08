@@ -14,10 +14,16 @@ namespace Login {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class Welcome : BaseContentPage {
+    public partial class Welcome :BaseContentPage {
+        
+        private Button logout;
+        
+        private Label store;
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Welcome));
+            logout = this.FindByName <Button>("logout");
+            store = this.FindByName <Label>("store");
         }
     }
 }
