@@ -1,7 +1,7 @@
 ## Xamarin.Forms Login Authentication Sample
 This is a login sample which uses Xamarin.Auth and implements custom renderers to create a login page. 
 Code is fairly straight forward. You are welcome to use the code as a starting point for your project. In each of the customRenderers
-you will need to change the OAuth Credentials to reflect your credentials. Windows Phone token storage is still pending.
+you will need to change the OAuth Credentials to reflect your credentials. Code has comments to help you out. Windows Phone token storage is still pending.
 Be sure to give a star if it works and helps you :) 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/5509813/8562470/2461185e-24f8-11e5-9c1f-38d4afa9da1a.png)
