@@ -1,3 +1,10 @@
+
+# NOTICE: This is DEPRECATED.
+
+Use this implementation instead (Easy Forms Auth)[https://github.com/rlingineni/EasyFormsAuth]. There is also a nice tutorial here on how it works [https://www.codementor.io/ravitejalingineni/oauth-explained-with-xamarin-forms-q2zomkhda].
+
+
+
 ## Xamarin.Forms Login Authentication Sample
 This is a login sample which uses Xamarin.Auth and implements custom renderers to create a login page. 
 Code is fairly straight forward. You are welcome to use the code as a starting point for your project. In each of the customRenderers
