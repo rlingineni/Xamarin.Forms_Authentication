@@ -1,5 +1,5 @@
 
-# NOTICE: This is DEPRECATED.
+# NOTE: This library is deprecated. Use [this](https://github.com/rlingineni/EasyFormsAuth) instead.
 
 Use this implementation instead (Easy Forms Auth)[https://github.com/rlingineni/EasyFormsAuth]. There is also a nice tutorial here on how it works [https://www.codementor.io/ravitejalingineni/oauth-explained-with-xamarin-forms-q2zomkhda].
 
